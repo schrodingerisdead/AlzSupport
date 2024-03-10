@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,26 @@
 		10520AD62B808C3F00E6169A /* AlzSupport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10520AD42B808C3F00E6169A /* AlzSupport.xcdatamodeld */; };
 		10520AD82B808C4100E6169A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10520AD72B808C4100E6169A /* Assets.xcassets */; };
 		10520ADB2B808C4100E6169A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10520AD92B808C4100E6169A /* LaunchScreen.storyboard */; };
+		10520AE32B808D2500E6169A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10520AE22B808D2500E6169A /* GoogleService-Info.plist */; };
+		10A386D12B94D36C00C1A9A8 /* PatientReminderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A386D02B94D36C00C1A9A8 /* PatientReminderCollectionViewCell.swift */; };
+		10A386D52B9644AC00C1A9A8 /* ReminderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A386D42B9644AC00C1A9A8 /* ReminderCollectionViewCell.swift */; };
+		10A386D72B96699B00C1A9A8 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A386D62B96699B00C1A9A8 /* ReminderTableViewCell.swift */; };
+		10A386D92B967D3F00C1A9A8 /* PatientLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A386D82B967D3F00C1A9A8 /* PatientLocationViewController.swift */; };
+		10C96B362B98B8C500053FDD /* gif_demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B352B98B8C500053FDD /* gif_demo.swift */; };
+		10C96B3A2B991E3700053FDD /* MemoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B392B991E3700053FDD /* MemoriesTableViewCell.swift */; };
+		10C96B3D2B9920AB00053FDD /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B3C2B9920AB00053FDD /* EntryDetailViewController.swift */; };
+		10C96B3F2B9924F300053FDD /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B3E2B9924F300053FDD /* MemoriesViewController.swift */; };
+		10C96B412B99C3D900053FDD /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B402B99C3D900053FDD /* NewsViewController.swift */; };
+		10C96B432B99C4FA00053FDD /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B422B99C4FA00053FDD /* APICaller.swift */; };
+		10C96B452B99D31D00053FDD /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C96B442B99D31D00053FDD /* NewsTableViewCell.swift */; };
+		10F372372B84D7840041EDC5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F372362B84D7840041EDC5 /* RegisterViewController.swift */; };
+		10F372392B84D7DF0041EDC5 /* PatientHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F372382B84D7DF0041EDC5 /* PatientHomeViewController.swift */; };
+		10F3723B2B84D82E0041EDC5 /* FamilyMemberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3723A2B84D82E0041EDC5 /* FamilyMemberHomeViewController.swift */; };
+		10F372452B8643680041EDC5 /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F372442B8643680041EDC5 /* AddReminderViewController.swift */; };
+		10F3724B2B86454B0041EDC5 /* PatientInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3724A2B86454B0041EDC5 /* PatientInformationViewController.swift */; };
+		10F372592B8752BB0041EDC5 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F372582B8752BB0041EDC5 /* Reminder.swift */; };
+		10F3725B2B87DE950041EDC5 /* BoredAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3725A2B87DE950041EDC5 /* BoredAPIResponse.swift */; };
+		22153D9D271A2A971D2688DD /* Pods_AlzSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14839A382288C5BFE23C25 /* Pods_AlzSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,28 @@
 		10520AD72B808C4100E6169A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10520ADA2B808C4100E6169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10520ADC2B808C4100E6169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10520AE22B808D2500E6169A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10A386D02B94D36C00C1A9A8 /* PatientReminderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientReminderCollectionViewCell.swift; sourceTree = "<group>"; };
+		10A386D42B9644AC00C1A9A8 /* ReminderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCollectionViewCell.swift; sourceTree = "<group>"; };
+		10A386D62B96699B00C1A9A8 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		10A386D82B967D3F00C1A9A8 /* PatientLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientLocationViewController.swift; sourceTree = "<group>"; };
+		10C96B352B98B8C500053FDD /* gif_demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif_demo.swift; sourceTree = "<group>"; };
+		10C96B392B991E3700053FDD /* MemoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewCell.swift; sourceTree = "<group>"; };
+		10C96B3C2B9920AB00053FDD /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
+		10C96B3E2B9924F300053FDD /* MemoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		10C96B402B99C3D900053FDD /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		10C96B422B99C4FA00053FDD /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		10C96B442B99D31D00053FDD /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		10F372362B84D7840041EDC5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		10F372382B84D7DF0041EDC5 /* PatientHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeViewController.swift; sourceTree = "<group>"; };
+		10F3723A2B84D82E0041EDC5 /* FamilyMemberHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMemberHomeViewController.swift; sourceTree = "<group>"; };
+		10F372442B8643680041EDC5 /* AddReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
+		10F3724A2B86454B0041EDC5 /* PatientInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationViewController.swift; sourceTree = "<group>"; };
+		10F372582B8752BB0041EDC5 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		10F3725A2B87DE950041EDC5 /* BoredAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredAPIResponse.swift; sourceTree = "<group>"; };
+		1B58EB05266C50ABE534FC0A /* Pods-AlzSupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlzSupport.debug.xcconfig"; path = "Target Support Files/Pods-AlzSupport/Pods-AlzSupport.debug.xcconfig"; sourceTree = "<group>"; };
+		36CC082C78E78B72F9BD8684 /* Pods-AlzSupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlzSupport.release.xcconfig"; path = "Target Support Files/Pods-AlzSupport/Pods-AlzSupport.release.xcconfig"; sourceTree = "<group>"; };
+		7B14839A382288C5BFE23C25 /* Pods_AlzSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlzSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22153D9D271A2A971D2688DD /* Pods_AlzSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +87,8 @@
 			children = (
 				10520ACA2B808C3F00E6169A /* AlzSupport */,
 				10520AC92B808C3F00E6169A /* Products */,
+				D4B3B64282551B041A4E3A7E /* Pods */,
+				F39CB7682DB0F4DC9F154F27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +103,52 @@
 		10520ACA2B808C3F00E6169A /* AlzSupport */ = {
 			isa = PBXGroup;
 			children = (
+				10C96B3E2B9924F300053FDD /* MemoriesViewController.swift */,
 				10520ACB2B808C3F00E6169A /* AppDelegate.swift */,
 				10520ACD2B808C3F00E6169A /* SceneDelegate.swift */,
-				10520ACF2B808C3F00E6169A /* ViewController.swift */,
 				10520AD12B808C3F00E6169A /* Main.storyboard */,
+				10C96B402B99C3D900053FDD /* NewsViewController.swift */,
+				10C96B442B99D31D00053FDD /* NewsTableViewCell.swift */,
+				10C96B392B991E3700053FDD /* MemoriesTableViewCell.swift */,
+				10A386D82B967D3F00C1A9A8 /* PatientLocationViewController.swift */,
+				10F3724A2B86454B0041EDC5 /* PatientInformationViewController.swift */,
+				10520ACF2B808C3F00E6169A /* ViewController.swift */,
+				10F372362B84D7840041EDC5 /* RegisterViewController.swift */,
+				10F372382B84D7DF0041EDC5 /* PatientHomeViewController.swift */,
+				10A386D02B94D36C00C1A9A8 /* PatientReminderCollectionViewCell.swift */,
+				10F3725A2B87DE950041EDC5 /* BoredAPIResponse.swift */,
+				10F372582B8752BB0041EDC5 /* Reminder.swift */,
+				10F372442B8643680041EDC5 /* AddReminderViewController.swift */,
+				10F3723A2B84D82E0041EDC5 /* FamilyMemberHomeViewController.swift */,
+				10A386D42B9644AC00C1A9A8 /* ReminderCollectionViewCell.swift */,
+				10A386D62B96699B00C1A9A8 /* ReminderTableViewCell.swift */,
+				10C96B3C2B9920AB00053FDD /* EntryDetailViewController.swift */,
+				10520AE22B808D2500E6169A /* GoogleService-Info.plist */,
 				10520AD72B808C4100E6169A /* Assets.xcassets */,
 				10520AD92B808C4100E6169A /* LaunchScreen.storyboard */,
+				10C96B352B98B8C500053FDD /* gif_demo.swift */,
 				10520ADC2B808C4100E6169A /* Info.plist */,
 				10520AD42B808C3F00E6169A /* AlzSupport.xcdatamodeld */,
+				10C96B422B99C4FA00053FDD /* APICaller.swift */,
 			);
 			path = AlzSupport;
+			sourceTree = "<group>";
+		};
+		D4B3B64282551B041A4E3A7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B58EB05266C50ABE534FC0A /* Pods-AlzSupport.debug.xcconfig */,
+				36CC082C78E78B72F9BD8684 /* Pods-AlzSupport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F39CB7682DB0F4DC9F154F27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B14839A382288C5BFE23C25 /* Pods_AlzSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10520ADF2B808C4100E6169A /* Build configuration list for PBXNativeTarget "AlzSupport" */;
 			buildPhases = (
+				448430626005D861507A3F36 /* [CP] Check Pods Manifest.lock */,
 				10520AC42B808C3F00E6169A /* Sources */,
 				10520AC52B808C3F00E6169A /* Frameworks */,
 				10520AC62B808C3F00E6169A /* Resources */,
+				CFA8734614ADE0EC6C918D12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10520ADB2B808C4100E6169A /* LaunchScreen.storyboard in Resources */,
+				10520AE32B808D2500E6169A /* GoogleService-Info.plist in Resources */,
 				10520AD82B808C4100E6169A /* Assets.xcassets in Resources */,
 				10520AD32B808C3F00E6169A /* Main.storyboard in Resources */,
 			);
@@ -135,15 +219,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		448430626005D861507A3F36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlzSupport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA8734614ADE0EC6C918D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlzSupport/Pods-AlzSupport-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlzSupport/Pods-AlzSupport-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlzSupport/Pods-AlzSupport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10520AC42B808C3F00E6169A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A386D12B94D36C00C1A9A8 /* PatientReminderCollectionViewCell.swift in Sources */,
+				10C96B362B98B8C500053FDD /* gif_demo.swift in Sources */,
+				10A386D52B9644AC00C1A9A8 /* ReminderCollectionViewCell.swift in Sources */,
+				10C96B412B99C3D900053FDD /* NewsViewController.swift in Sources */,
+				10F3725B2B87DE950041EDC5 /* BoredAPIResponse.swift in Sources */,
+				10F372452B8643680041EDC5 /* AddReminderViewController.swift in Sources */,
+				10F3723B2B84D82E0041EDC5 /* FamilyMemberHomeViewController.swift in Sources */,
 				10520AD02B808C3F00E6169A /* ViewController.swift in Sources */,
+				10A386D92B967D3F00C1A9A8 /* PatientLocationViewController.swift in Sources */,
+				10F3724B2B86454B0041EDC5 /* PatientInformationViewController.swift in Sources */,
+				10C96B432B99C4FA00053FDD /* APICaller.swift in Sources */,
+				10F372372B84D7840041EDC5 /* RegisterViewController.swift in Sources */,
+				10C96B452B99D31D00053FDD /* NewsTableViewCell.swift in Sources */,
+				10C96B3F2B9924F300053FDD /* MemoriesViewController.swift in Sources */,
+				10C96B3D2B9920AB00053FDD /* EntryDetailViewController.swift in Sources */,
 				10520ACC2B808C3F00E6169A /* AppDelegate.swift in Sources */,
+				10C96B3A2B991E3700053FDD /* MemoriesTableViewCell.swift in Sources */,
+				10A386D72B96699B00C1A9A8 /* ReminderTableViewCell.swift in Sources */,
+				10F372392B84D7DF0041EDC5 /* PatientHomeViewController.swift in Sources */,
 				10520ACE2B808C3F00E6169A /* SceneDelegate.swift in Sources */,
 				10520AD62B808C3F00E6169A /* AlzSupport.xcdatamodeld in Sources */,
+				10F372592B8752BB0041EDC5 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +431,7 @@
 		};
 		10520AE02B808C4100E6169A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B58EB05266C50ABE534FC0A /* Pods-AlzSupport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +450,7 @@
 		};
 		10520AE12B808C4100E6169A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CC082C78E78B72F9BD8684 /* Pods-AlzSupport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
