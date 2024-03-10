@@ -10,11 +10,11 @@ import FirebaseAuth
 import FirebaseDatabase
 
 
-class AddReminderViewController: UIViewController { // am i missing something here
+class AddReminderViewController: UIViewController {
 
     @IBOutlet weak var reminder: UITextField!
     @IBOutlet weak var AddReminder: UIButton!
-    @IBOutlet weak var reminderTableView: UITableView! // I have a tableview inside this view, so implement this in code
+    @IBOutlet weak var reminderTableView: UITableView!
     var ref: DatabaseReference!
     var reminders: [Reminder] = []
     

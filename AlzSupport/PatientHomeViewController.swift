@@ -102,7 +102,6 @@ class PatientHomeViewController: UIViewController, UICollectionViewDelegate, Pat
 
         let usersRef = Database.database().reference().child("users")
 
-        // Search for the user's ID in the "patients" node
         usersRef.child("patients").child(currentUserID).observeSingleEvent(of: .value) { [weak self] patientSnapshot in
             guard let self = self else { return }
             
@@ -115,7 +114,6 @@ class PatientHomeViewController: UIViewController, UICollectionViewDelegate, Pat
             print("Patient Snapshot:")
             print(patientData)
             
-            // Now, fetch the family member ID using the relative's email
             self.findFamilyMemberID(for: relativeEmail)
         }
     }
@@ -136,7 +134,6 @@ class PatientHomeViewController: UIViewController, UICollectionViewDelegate, Pat
             
             for (familyMemberID, familyMemberData) in familyMembersData {
                 if let memberEmail = familyMemberData["email"] as? String, memberEmail == email {
-                    // Found the family member corresponding to the relative email
                     self.fetchFamilyMemberReminders(for: familyMemberID)
                     return
                 }
@@ -164,7 +161,7 @@ class PatientHomeViewController: UIViewController, UICollectionViewDelegate, Pat
             print("Reminders Data:")
             print(remindersData)
 
-            // Filter reminders based on the family member ID and status
+           
             self.reminders = remindersData.compactMap { (key, value) in
                 guard let createdBy = value["createdBy"] as? String, createdBy == familyMemberID,
                       let text = value["text"] as? String,
@@ -174,7 +171,7 @@ class PatientHomeViewController: UIViewController, UICollectionViewDelegate, Pat
                 }
 
                 let reminder = Reminder(
-                    id: key, // Assuming the ID is the key
+                    id: key,
                     text: text,
                     status: status
                 )
@@ -285,10 +282,7 @@ class PatientHomeViewController: UIViewController, UICollectionViewDelegate, Pat
     }
 
     func updateReminderStatusInDatabase(reminderId: String, newStatus: String, completion: @escaping (Bool) -> Void) {
-        // Assuming you have a reference to your reminders node in the database
         let remindersRef = Database.database().reference().child("reminders").child(reminderId)
-
-        // Update the status of the reminder in the database
         remindersRef.child("status").setValue(newStatus) { error, _ in
             if let error = error {
                 print("Error updating reminder status in database: \(error.localizedDescription)")
@@ -328,15 +322,13 @@ extension PatientHomeViewController: CLLocationManagerDelegate {
 extension PatientHomeViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let collectionViewWidth = collectionView.bounds.width
-        let spacing: CGFloat = 10 // Adjust the spacing between cells as needed
-        let cellWidth = (collectionViewWidth - spacing) / 2 // Divide by the number of cells per row
-        
-        // Make the cell size square
+        let spacing: CGFloat = 10
+        let cellWidth = (collectionViewWidth - spacing) / 2
         return CGSize(width: cellWidth, height: cellWidth)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 10 // Adjust the spacing between cells horizontally as needed
+        return 10
     }
 }
 
@@ -348,12 +340,11 @@ extension PatientHomeViewController: UICollectionViewDataSource {
         return reminders.count
     }
     
-    // Inside collectionView(_:cellForItemAt:) method
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
            print("collectionView(_:cellForItemAt:) method called")
 
            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! PatientReminderCollectionViewCell
-           cell.delegate = self // Set the delegate
+           cell.delegate = self
            let reminder = reminders[indexPath.item]
            cell.configure(with: reminder)
 
