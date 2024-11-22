@@ -4,7 +4,7 @@ AlzSupport is a mobile application designed to provide support for families and 
 
 ## Additional Info
 
-For more info on how the app works check out the video link down below(the explanation is in Macedonian, but you can visually see how all the dependencies are meant to work: 
+For more info on how the app works check out the video link down below (the explanation is in Macedonian, but you can visually see how all the dependencies are meant to work): 
 https://www.youtube.com/watch?v=k6B0Ey1QpZE
 
 ## Features
