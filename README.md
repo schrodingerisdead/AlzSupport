@@ -1,13 +1,15 @@
 # AlzSupport
 
 AlzSupport is a mobile application designed to provide support for families and caregivers of Alzheimer's disease patients. It offers various functionalities to assist users in managing reminders and keeping track of important information, related to their loved ones as well as tracking their location in real time.
-![Simulator Screen Shot - iPhone 11 - 2024-03-10 at 19 31 36](https://github.com/schrodingerisdead/AlzSupport/assets/63170223/b6dddd21-1bc4-4f55-a930-d1e9f703a9f6)
-##Additional Info
+
+## Additional Info
 
 For more info on how the app works check out the video link down below(the explanation is in Macedonian, but you can visually see how all the dependencies are meant to work: 
 https://www.youtube.com/watch?v=k6B0Ey1QpZE
 
 ## Features
+
+![Simulator Screen Shot - iPhone 11 - 2024-03-10 at 19 31 36](https://github.com/schrodingerisdead/AlzSupport/assets/63170223/b6dddd21-1bc4-4f55-a930-d1e9f703a9f6)
 
 ### User Registration
 
